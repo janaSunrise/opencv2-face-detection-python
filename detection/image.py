@@ -1,5 +1,3 @@
-import os
-
 import cv2
 
 from . import IMAGE_PATH_PREFIX, HAARCASCADE_CONFIG

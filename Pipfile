@@ -10,3 +10,4 @@ opencv-python = "*"
 
 [scripts]
 image = "python -m detection.image"
+video = "python -m detection.video"
