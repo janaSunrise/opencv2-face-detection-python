@@ -8,5 +8,5 @@ opencv-python = "*"
 
 [dev-packages]
 
-[requires]
-python_version = "3.8"
+[scripts]
+image = "python -m detection.image"
