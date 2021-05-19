@@ -13,7 +13,9 @@ if __name__ == "__main__":
 
     img_grayscale = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    detections = classifier.detectMultiScale(img_grayscale, scaleFactor=1.1, minNeighbors=6)
+    detections = classifier.detectMultiScale(
+        img_grayscale, scaleFactor=1.1, minNeighbors=6
+    )
 
     # Get the face co-ordinates
     print(f"Co-ordinates:\n{detections}")
